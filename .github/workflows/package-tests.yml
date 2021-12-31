@@ -2,14 +2,7 @@ name: Tests
 
 on:
   push:
-    branches: [ master ]
-    paths-ignore:
-      - 'LICENSE.*'
-      - 'README.*'
-      - '.github/ISSUE-TEMPLATE/**'
-      - 'docs/**'
-      - '.hgignore'
-      - '.gitignore'
+    branches:
 
   pull_request:
     branches: [ master ]
